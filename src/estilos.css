@@ -1,0 +1,59 @@
+/* Estilo para el encabezado */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Estilo para el cuerpo */
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h2 {
+	color: #333;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Estilo para el pie de página */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
